@@ -9,4 +9,4 @@
 # วิธีที่ 1: สร้าง Array แบบกำหนดค่าเริ่มต้น
 numbers = [1, 2, 3, 4, 5]
 print("Array 1:", numbers)
-![Result](Screenshot 2024-12-04155733.png)
+![Result](DSA-66030067/Screenshot 2024-12-04155733.png)
