@@ -1,0 +1,12 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"languageName":"csharp","name":"csharp"}]}}
+
+#!markdown
+
+#### 1.1 การสร้างและแสดงผล Array
+```python
+# วิธีที่ 1: สร้าง Array แบบกำหนดค่าเริ่มต้น
+numbers = [1, 2, 3, 4, 5]
+print("Array 1:", numbers)
+![Result](C:/Users/admin/Documents/GitHub/DSA-66030067/Screenshot 2024-12-04155733.png")
