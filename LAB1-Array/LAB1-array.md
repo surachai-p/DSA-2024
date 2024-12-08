@@ -158,12 +158,11 @@ for row in matrix:
    - จองที่นั่ง
    - ยกเลิกการจอง
    - แสดงจำนวนที่นั่งว่างทั้งหมด
-
-3. เขียนโปรแกรมวิเคราะห์ยอดขาย:
-   - เก็บยอดขายของพนักงาน 5 คน ในแต่ละวันของสัปดาห์
-   - หาพนักงานที่มียอดขายสูงสุดในแต่ละวัน
-   - หาวันที่มียอดขายรวมสูงสุด
-   - คำนวณยอดขายเฉลี่ยของแต่ละพนักงาน
+     ![Screenshot 2024-12-08 120725](https://github.com/user-attachments/assets/0a537af9-c68d-4d1b-969f-59677d80d474)
+     ![Screenshot 2024-12-08 120803](https://github.com/user-attachments/assets/9421bf9a-8b74-4ead-aaa7-f7258c891994)
+     ![Screenshot 2024-12-08 120917](https://github.com/user-attachments/assets/431e48b1-603f-4609-acff-637d986a88c2)
+     ![Screenshot 2024-12-08 121005](https://github.com/user-attachments/assets/ee38500d-669d-4428-ad13-f7e4a626ba02)
+     ![Screenshot 2024-12-08 121024](https://github.com/user-attachments/assets/9a398325-7fd5-4f57-8209-db1f23a2e223)
 
 ## การทดลองที่ 3: Array 3 มิติ
 ### ขั้นตอนการทดลอง
@@ -211,6 +210,12 @@ for layer in cube:
    - เป็นเวลา 7 วัน
    - หาค่าเฉลี่ยอุณหภูมิของแต่ละเมือง
    - หาวันและเวลาที่อุณหภูมิสูงที่สุดของแต่ละเมือง
+     ![Screenshot 2024-12-08 191109](https://github.com/user-attachments/assets/1c06fb5e-3b8d-4625-96fb-0df13e738a4f)
+     ![Screenshot 2024-12-08 191124](https://github.com/user-attachments/assets/aa8b58c7-a0ac-4e41-bca6-bacc77d62ce4)
+     ![Screenshot 2024-12-08 191138](https://github.com/user-attachments/assets/2a532c48-e7f8-4112-b956-f0f97335569e
+     ![Screenshot 2024-12-08 191155](https://github.com/user-attachments/assets/43591d45-8d31-4ab4-946e-5844772cbd0d)
+     ![Screenshot 2024-12-08 191209](https://github.com/user-attachments/assets/cb06b418-a8e1-4087-a768-b8aab05f3a20)
+     ![Screenshot 2024-12-08 191222](https://github.com/user-attachments/assets/72461037-74c2-4f7b-b023-19b7c0e880ea)
 
 2. สร้างโปรแกรมจัดการคลังสินค้า:
    - มี 3 คลัง
@@ -219,19 +224,15 @@ for layer in cube:
    - บันทึกจำนวนสินค้าในแต่ละตำแหน่ง
    - หาคลังที่มีสินค้ามากที่สุด
    - หาตำแหน่งที่ว่าง (จำนวนสินค้า = 0)
-
-3. เขียนโปรแกรมวิเคราะห์ผลการเรียน:
-   - เก็บคะแนนของนักเรียน 3 ห้อง
-   - ห้องละ 5 คน
-   - สอบ 4 วิชา
-   - หาห้องที่มีคะแนนเฉลี่ยสูงสุด
-   - หานักเรียนที่ได้คะแนนรวมสูงสุดในแต่ละห้อง
-   - แสดงจำนวนนักเรียนที่สอบผ่านทุกวิชาในแต่ละห้อง
+     ![Screenshot 2024-12-08 192458](https://github.com/user-attachments/assets/ea28c53c-7d6a-4d46-a1cb-52c3864dd9be)
+     ![Screenshot 2024-12-08 192516](https://github.com/user-attachments/assets/420fd4a2-4a8f-4068-916c-9d66a70f5e0c)
+     ![Screenshot 2024-12-08 192532](https://github.com/user-attachments/assets/40e6169d-dfe7-4955-9330-49fa10181ea5)
+     ![Screenshot 2024-12-08 192545](https://github.com/user-attachments/assets/f2d3e2b5-ae0c-43c7-812d-4f2eb9eba335)
 
 ## การส่งงาน
 1. ส่งไฟล์ .py ที่มีโค้ดการทดลองทั้ง 3 ส่วน
 2. แสดงผลลัพธ์การทำงานของโปรแกรมในแต่ละการทดลอง
-3. ส่งคำตอบของแบบฝึกหัดทั้ง 9 ข้อ พร้อมผลลัพธ์การทำงาน
+3. ส่งคำตอบของแบบฝึกหัดทั้ง 6 ข้อ พร้อมผลลัพธ์การทำงาน
 4. เขียนสรุปสิ่งที่ได้เรียนรู้จากการทดลอง
 
 ## เกณฑ์การให้คะแนน
