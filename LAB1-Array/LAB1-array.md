@@ -217,18 +217,19 @@ for layer in cube:
      ![Screenshot 2024-12-08 191209](https://github.com/user-attachments/assets/cb06b418-a8e1-4087-a768-b8aab05f3a20)
      ![Screenshot 2024-12-08 191222](https://github.com/user-attachments/assets/72461037-74c2-4f7b-b023-19b7c0e880ea)
 
-2. สร้างโปรแกรมจัดการคลังสินค้า:
-   - มี 3 คลัง
-   - แต่ละคลังมี 4 ชั้น
-   - แต่ละชั้นมี 5 ช่อง
-   - บันทึกจำนวนสินค้าในแต่ละตำแหน่ง
-   - หาคลังที่มีสินค้ามากที่สุด
-   - หาตำแหน่งที่ว่าง (จำนวนสินค้า = 0)
-     ![Screenshot 2024-12-08 192458](https://github.com/user-attachments/assets/ea28c53c-7d6a-4d46-a1cb-52c3864dd9be)
-     ![Screenshot 2024-12-08 192516](https://github.com/user-attachments/assets/420fd4a2-4a8f-4068-916c-9d66a70f5e0c)
-     ![Screenshot 2024-12-08 192532](https://github.com/user-attachments/assets/40e6169d-dfe7-4955-9330-49fa10181ea5)
-     ![Screenshot 2024-12-08 192545](https://github.com/user-attachments/assets/f2d3e2b5-ae0c-43c7-812d-4f2eb9eba335)
-
+2. เขียนโปรแกรมวิเคราะห์ผลการเรียน:
+   - เก็บคะแนนของนักเรียน 3 ห้อง
+   - ห้องละ 5 คน
+   - สอบ 4 วิชา
+   - หาห้องที่มีคะแนนเฉลี่ยสูงสุด
+   - หานักเรียนที่ได้คะแนนรวมสูงสุดในแต่ละห้อง
+   - แสดงจำนวนนักเรียนที่สอบผ่านทุกวิชาในแต่ละห้อง
+     ![Screenshot 2024-12-08 194303](https://github.com/user-attachments/assets/a3282a5f-c190-49bb-9c9b-8b37bc70bc73)
+     ![Screenshot 2024-12-08 194317](https://github.com/user-attachments/assets/3e9befc0-0381-48d1-85a2-0985137eb266)
+     ![Screenshot 2024-12-08 194334](https://github.com/user-attachments/assets/e6cde836-180d-441a-8433-7ff4906383c9)
+     ![Screenshot 2024-12-08 194346](https://github.com/user-attachments/assets/3b01e8ab-687e-4ab5-9b67-22aac332c6bc)
+     ![Screenshot 2024-12-08 194407](https://github.com/user-attachments/assets/f2d6fe92-e1bc-42d1-afcf-bd2812efcd63)
+     
 ## การส่งงาน
 1. ส่งไฟล์ .py ที่มีโค้ดการทดลองทั้ง 3 ส่วน
 2. แสดงผลลัพธ์การทำงานของโปรแกรมในแต่ละการทดลอง
