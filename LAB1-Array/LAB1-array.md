@@ -79,12 +79,9 @@ print("จำนวน 2 ในarray:", numbers.count(2))
    - ลบสินค้าที่หมด
    - ค้นหาสินค้า
    - แสดงรายการสินค้าทั้งหมด
-
-3. เขียนโปรแกรมวิเคราะห์อุณหภูมิประจำวัน โดย:
-   - รับค่าอุณหภูมิ 24 ชั่วโมง
-   - หาช่วงเวลาที่อุณหภูมิสูงที่สุด
-   - หาช่วงเวลาที่อุณหภูมิต่ำที่สุด
-   - คำนวณอุณหภูมิเฉลี่ย
+     ![Screenshot 2024-12-08 110024](https://github.com/user-attachments/assets/8af317c1-d144-482a-9a5c-ef85f97aa266)
+     ![Screenshot 2024-12-08 110048](https://github.com/user-attachments/assets/adb106fa-7654-42a8-b671-21d9f7590d0a)
+     ![Screenshot 2024-12-08 110103](https://github.com/user-attachments/assets/1a24a4c0-9879-465e-880b-680a85ab5224)
 
 ## การทดลองที่ 2: Array 2 มิติ
 ### ขั้นตอนการทดลอง
@@ -154,7 +151,8 @@ for row in matrix:
    - คำนวณคะแนนเฉลี่ยของแต่ละวิชา
    - หานักเรียนที่ได้คะแนนรวมสูงสุด
    - แสดงจำนวนนักเรียนที่สอบผ่านแต่ละวิชา (คะแนนผ่าน ≥ 50)
-
+     ![Screenshot 2024-12-08 105656](https://github.com/user-attachments/assets/d040a901-41b5-45a8-b7ba-a4af6d63b0eb)
+     ![Screenshot 2024-12-08 105724](https://github.com/user-attachments/assets/ecbc1e53-85a8-48ce-aaf0-1ff668ad92c4)
 2. สร้างโปรแกรมจัดการที่นั่งในโรงภาพยนตร์:
    - แสดงแผนผังที่นั่ง (ว่าง/จอง)
    - จองที่นั่ง
