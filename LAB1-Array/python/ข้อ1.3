@@ -1,0 +1,28 @@
+temperatures = [[[0]*4 for _ in range(7)] for _ in range(3)]
+# เก็บข้อมูลอุณหภูมิ
+for city in range(3):
+    for day in range(7):
+        for time in range(4):
+            temperatures[city][day][time] = float(input(f"กรอกอุณหภูมิของเมืองที่ {city+1}, วันที่ {day+1}, เวลา {time+1}: "))
+# คำนวณค่าเฉลี่ยอุณหภูมิของแต่ละเมือง
+for city in range(3):
+    total_temp = 0
+    count = 0
+    for day in range(7):
+        for time in range(4):
+            total_temp += temperatures[city][day][time]
+            count += 1
+    avg_temp = total_temp / count
+    print(f"ค่าเฉลี่ยอุณหภูมิของเมืองที่ {city+1} คือ {avg_temp:.2f} องศาเซลเซียส")
+# หาวันและเวลาที่อุณหภูมิสูงที่สุดของแต่ละเมือง
+for city in range(3):
+    max_temp = -float('inf')
+    max_day = -1
+    max_time = -1
+    for day in range(7):
+        for time in range(4):
+            if temperatures[city][day][time] > max_temp:
+                max_temp = temperatures[city][day][time]
+                max_day = day + 1  # เปลี่ยนเป็น 1-based index
+                max_time = time + 1  # เปลี่ยนเป็น 1-based index
+    print(f"เมืองที่ {city+1} มีอุณหภูมิสูงที่สุดที่ {max_temp:.2f} องศาเซลเซียส วันที่ {max_day}, เวลา {max_time}")

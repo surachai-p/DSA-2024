@@ -1,0 +1,16 @@
+# สร้าง Array 1 มิติ สำหรับเก็บอุณหภูมิประจำวัน 24 ชั่วโมง
+temperatures = []
+# รับค่าอุณหภูมิ 24 ชั่วโมงจากผู้ใช้
+for i in range(24):
+    temperatures.append(float(input(f"กรอกอุณหภูมิในชั่วโมงที่ {i+1}: ")))
+# หาช่วงเวลาที่อุณหภูมิสูงที่สุด
+max_temp = max(temperatures)
+max_temp_hour = temperatures.index(max_temp) + 1  # +1 เพื่อให้ตรงกับช่วงเวลา (1-24)
+print(f"ช่วงเวลาที่อุณหภูมิสูงที่สุดอยู่ในชั่วโมงที่ {max_temp_hour} โดยมีอุณหภูมิสูงสุด {max_temp:.2f}°C")
+# หาช่วงเวลาที่อุณหภูมิต่ำที่สุด
+min_temp = min(temperatures)
+min_temp_hour = temperatures.index(min_temp) + 1  # +1 เพื่อให้ตรงกับช่วงเวลา (1-24)
+print(f"ช่วงเวลาที่อุณหภูมิต่ำที่สุดอยู่ในชั่วโมงที่ {min_temp_hour} โดยมีอุณหภูติ่สุด {min_temp:.2f}°C")
+# คำนวณอุณหภูมิเฉลี่ย
+average_temp = sum(temperatures) / len(temperatures)
+print(f"อุณหภูมิเฉลี่ยตลอด 24 ชั่วโมงคือ {average_temp:.2f}°C")

@@ -1,0 +1,51 @@
+# สร้าง Array 2 มิติสำหรับเก็บสถานะที่นั่ง (0 = ว่าง, 1 = จองแล้ว)
+rows, cols = 5, 7  # จำนวนแถวและคอลัมน์
+seats = [[0 for _ in range(cols)] for _ in range(rows)]
+while True:
+    print("\n=== ระบบจัดการที่นั่งโรงภาพยนตร์ ===")
+    print("1. แสดงแผนผังที่นั่ง")
+    print("2. จองที่นั่ง")
+    print("3. ยกเลิกการจอง")
+    print("4. แสดงจำนวนที่นั่งว่างทั้งหมด")
+    print("5. ออกจากโปรแกรม")
+    choice = input("เลือกเมนู (1-5): ")
+    if choice == "1":  # แสดงแผนผังที่นั่ง
+        print("\nแผนผังที่นั่ง:")
+        print("  " + " ".join(str(i + 1) for i in range(cols)))
+        for row_index, row in enumerate(seats, start=1):
+            print(f"{row_index} " + " ".join("ว" if seat == 0 else "จ" for seat in row))
+    elif choice == "2":  # จองที่นั่ง
+        row = int(input("กรอกหมายเลขแถว (1-5): ")) - 1
+        col = int(input("กรอกหมายเลขที่นั่ง (1-7): ")) - 1
+        if 0 <= row < rows and 0 <= col < cols:
+            if seats[row][col] == 0:
+                seats[row][col] = 1
+                print("จองที่นั่งสำเร็จ!")
+            else:
+                print("ที่นั่งนี้ถูกจองไปแล้ว!")
+        else:
+            print("หมายเลขที่นั่งไม่ถูกต้อง!")
+    
+    elif choice == "3":  # ยกเลิกการจอง
+        row = int(input("กรอกหมายเลขแถว (1-5): ")) - 1
+        col = int(input("กรอกหมายเลขที่นั่ง (1-7): ")) - 1
+        if 0 <= row < rows and 0 <= col < cols:
+            if seats[row][col] == 1:
+                seats[row][col] = 0
+                print("ยกเลิกการจองสำเร็จ!")
+            else:
+                print("ที่นั่งนี้ยังไม่ได้จอง!")
+        else:
+            print("หมายเลขที่นั่งไม่ถูกต้อง!")
+    elif choice == "4":  # แสดงจำนวนที่นั่งว่างทั้งหมด
+        available = 0
+        for row in seats:
+            for seat in row:
+                if seat == 0:
+                    available += 1
+        print(f"\nจำนวนที่นั่งว่างทั้งหมด: {available} ที่นั่ง")
+    elif choice == "5":  # ออกจากโปรแกรม
+        print("ออกจากโปรแกรม!")
+        break
+    else:
+        print("กรุณาเลือกเมนูที่ถูกต้อง (1-5)")

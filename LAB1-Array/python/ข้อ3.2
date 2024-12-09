@@ -1,0 +1,30 @@
+warehouse = [[[0]*5 for _ in range(4)] for _ in range(3)]
+# บันทึกจำนวนสินค้าในแต่ละตำแหน่ง
+for i in range(3):
+    for j in range(4):
+        for k in range(5):
+            warehouse[i][j][k] = int(input(f"กรอกจำนวนสินค้าในคลังที่ {i+1}, ชั้น {j+1}, ช่อง {k+1}: "))
+# คลังที่มีสินค้ามากที่สุด
+max_items = -1
+max_warehouse = -1
+max_shelf = -1
+max_position = -1
+for i in range(3):
+    for j in range(4):
+        for k in range(5):
+            if warehouse[i][j][k] > max_items:
+                max_items = warehouse[i][j][k]
+                max_warehouse = i + 1
+                max_shelf = j + 1
+                max_position = k + 1
+print(f"คลังที่มีสินค้ามากที่สุดคือคลังที่ {max_warehouse}, ชั้น {max_shelf}, ช่อง {max_position} โดยมี {max_items} สินค้า")
+# หาตำแหน่งที่ว่าง (จำนวนสินค้า = 0)
+empty_positions = []
+for i in range(3):
+    for j in range(4):
+        for k in range(5):
+            if warehouse[i][j][k] == 0:
+                empty_positions.append((i+1, j+1, k+1))
+print("ตำแหน่งที่ว่างในคลัง (จำนวนสินค้า = 0):")
+for pos in empty_positions:
+    print(f"คลังที่ {pos[0]}, ชั้น {pos[1]}, ช่อง {pos[2]}")
