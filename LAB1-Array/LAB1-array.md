@@ -80,8 +80,14 @@ print("จำนวน 2 ในarray:", numbers.count(2))
    - ลบสินค้าที่หมด
    - ค้นหาสินค้า
    - แสดงรายการสินค้าทั้งหมด
-  
    - 
+     ![image](https://github.com/user-attachments/assets/c203a67f-ffc0-4ee6-a2ef-68a2541a683d)
+     
+     ![image](https://github.com/user-attachments/assets/a9837d99-eea6-43a5-a668-afc9f2f8b67e)
+     
+     ![image](https://github.com/user-attachments/assets/9d40d669-910d-4215-83a2-447b2e89f113)
+     
+
 
 3. เขียนโปรแกรมวิเคราะห์อุณหภูมิประจำวัน โดย:
    - รับค่าอุณหภูมิ 24 ชั่วโมง
@@ -157,12 +163,27 @@ for row in matrix:
    - คำนวณคะแนนเฉลี่ยของแต่ละวิชา
    - หานักเรียนที่ได้คะแนนรวมสูงสุด
    - แสดงจำนวนนักเรียนที่สอบผ่านแต่ละวิชา (คะแนนผ่าน ≥ 50)
+     ![image](https://github.com/user-attachments/assets/1f9aa1b0-1f51-4e96-a713-49b5added68a)
+     
+     ![image](https://github.com/user-attachments/assets/7376d883-349b-4fe8-8b78-cc849c6b9266)
+
+
 
 2. สร้างโปรแกรมจัดการที่นั่งในโรงภาพยนตร์:
    - แสดงแผนผังที่นั่ง (ว่าง/จอง)
    - จองที่นั่ง
    - ยกเลิกการจอง
    - แสดงจำนวนที่นั่งว่างทั้งหมด
+![image](https://github.com/user-attachments/assets/5de5172f-3877-470c-aacc-0c912345964c)
+
+![image](https://github.com/user-attachments/assets/5429ae62-f43b-457e-9919-1c80ce8da709)
+
+![image](https://github.com/user-attachments/assets/99cfa107-1293-4985-8fb4-66dc58c7a95c)
+
+![image](https://github.com/user-attachments/assets/c0a8b1a3-7155-44b6-9121-0feb90a9df8f)
+
+
+
 
 3. เขียนโปรแกรมวิเคราะห์ยอดขาย:
    - เก็บยอดขายของพนักงาน 5 คน ในแต่ละวันของสัปดาห์
@@ -216,16 +237,26 @@ for layer in cube:
    - เป็นเวลา 7 วัน
    - หาค่าเฉลี่ยอุณหภูมิของแต่ละเมือง
    - หาวันและเวลาที่อุณหภูมิสูงที่สุดของแต่ละเมือง
+   -
+   - ![image](https://github.com/user-attachments/assets/d15bfb92-9d7c-4586-851f-e32835451503)
+   - 
+      ![image](https://github.com/user-attachments/assets/e8a332a9-9847-4b12-be25-c9f97c4aecb8)
 
-2. สร้างโปรแกรมจัดการคลังสินค้า:
+
+3. สร้างโปรแกรมจัดการคลังสินค้า:
    - มี 3 คลัง
    - แต่ละคลังมี 4 ชั้น
    - แต่ละชั้นมี 5 ช่อง
    - บันทึกจำนวนสินค้าในแต่ละตำแหน่ง
    - หาคลังที่มีสินค้ามากที่สุด
    - หาตำแหน่งที่ว่าง (จำนวนสินค้า = 0)
+   - ![image](https://github.com/user-attachments/assets/b82569dc-8e20-463c-9647-f37e860fc754)
+   - 
+   - ![image](https://github.com/user-attachments/assets/e2cbec9a-4fd4-4aea-8a7d-cd40a32c26b9)
 
-3. เขียนโปรแกรมวิเคราะห์ผลการเรียน:
+
+
+4. เขียนโปรแกรมวิเคราะห์ผลการเรียน:
    - เก็บคะแนนของนักเรียน 3 ห้อง
    - ห้องละ 5 คน
    - สอบ 4 วิชา
