@@ -211,6 +211,10 @@ for layer in cube:
    - เป็นเวลา 7 วัน
    - หาค่าเฉลี่ยอุณหภูมิของแต่ละเมือง
    - หาวันและเวลาที่อุณหภูมิสูงที่สุดของแต่ละเมือง
+   ![image](https://github.com/user-attachments/assets/d55046fc-5b5f-405f-acd3-6bd5d02ad67e)
+   ![image](https://github.com/user-attachments/assets/febf084a-0584-451c-9c69-1cdf42dbd877)
+
+
 
 2. เขียนโปรแกรมวิเคราะห์ผลการเรียน:
    - เก็บคะแนนของนักเรียน 3 ห้อง
