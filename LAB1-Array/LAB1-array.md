@@ -79,6 +79,9 @@ print("จำนวน 2 ในarray:", numbers.count(2))
    - ลบสินค้าที่หมด
    - ค้นหาสินค้า
    - แสดงรายการสินค้าทั้งหมด
+   ![image](https://github.com/user-attachments/assets/9514ffa6-e117-444d-bd25-226640bbf71a)
+   ![image](https://github.com/user-attachments/assets/0a18c29d-3a5a-4da6-aabd-a2e4ef6085b1)
+
 
 
 ## การทดลองที่ 2: Array 2 มิติ
