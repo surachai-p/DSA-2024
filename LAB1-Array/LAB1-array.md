@@ -223,6 +223,9 @@ for layer in cube:
    - หาห้องที่มีคะแนนเฉลี่ยสูงสุด
    - หานักเรียนที่ได้คะแนนรวมสูงสุดในแต่ละห้อง
    - แสดงจำนวนนักเรียนที่สอบผ่านทุกวิชาในแต่ละห้อง
+   ![image](https://github.com/user-attachments/assets/5c9b7fa2-1970-4aa2-bfaf-19b817b0a968)
+   ![image](https://github.com/user-attachments/assets/0a474b47-9fb1-495b-bccb-8898a98b2fd8)
+
 
 ## การส่งงาน
 1. ส่งไฟล์ .py ที่มีโค้ดการทดลอง
