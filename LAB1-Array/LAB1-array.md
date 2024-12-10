@@ -159,6 +159,10 @@ for row in matrix:
    - จองที่นั่ง
    - ยกเลิกการจอง
    - แสดงจำนวนที่นั่งว่างทั้งหมด
+   ![image](https://github.com/user-attachments/assets/3730d973-83e9-47a6-acf3-7178b5a47104)
+
+   ![image](https://github.com/user-attachments/assets/5a8a6252-47d3-4c16-b816-c5fea00fa7e7)
+
 
 
 ## การทดลองที่ 3: Array 3 มิติ
