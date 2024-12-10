@@ -161,7 +161,7 @@ for row in matrix:
    - แสดงจำนวนที่นั่งว่างทั้งหมด
    ![image](https://github.com/user-attachments/assets/3730d973-83e9-47a6-acf3-7178b5a47104)
 
-   ![image](https://github.com/user-attachments/assets/5a8a6252-47d3-4c16-b816-c5fea00fa7e7)
+   ![image](https://github.com/user-attachments/assets/0891bfcc-c8a6-4e99-9740-fabfbba0aaf1)
 
 
 
